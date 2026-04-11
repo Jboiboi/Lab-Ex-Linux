@@ -4,3 +4,4 @@ using . in place of the path means the current directory
 properties you can use are the type of file, file name, and size of the file
 -type f means a regular file
 -size 1033 means a file with the size of 1033 bytes
+! -executable the exclamation mark means NOT so its not executable
