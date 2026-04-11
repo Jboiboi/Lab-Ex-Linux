@@ -1,0 +1,4 @@
+Use | for piping and chaining commands for more complex procedures
+Use the sort for aligning all the lines of text in the file in a neat list
+Use uniq -u to find the unique line that occurs only once out of the output list that sort provided.
+If you use uniq -u without sort, then it'll just show the unique line of each text.
