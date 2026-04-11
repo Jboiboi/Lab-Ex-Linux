@@ -1,0 +1,2 @@
+ls -a finds all the hidden files
+Make sure to include the ... when using cat on the hidden file.
