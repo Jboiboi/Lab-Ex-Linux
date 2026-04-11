@@ -1,0 +1,2 @@
+Use quotation marks for filename with spaces to make sure the system reads it as one file rather than a bunch of different filenames.
+Also use ./ so that the -- doesn't read as a unrecognized option.
