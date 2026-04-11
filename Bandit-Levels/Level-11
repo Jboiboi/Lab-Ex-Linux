@@ -1,0 +1,2 @@
+Using cat gives an encoded message.
+Use base64 with the flag -d to decode the message.
