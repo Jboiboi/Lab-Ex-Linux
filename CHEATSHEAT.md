@@ -8,3 +8,8 @@
 * rmdir - removes a directory but it has to be empty
 * rm -r - removes a directory and everything in it
 * -r - stands for recursive
+* man - for searching up what the commands do
+* grep - for searching for patterns within a file
+* find - for finding certain files or directories with properties
+* strings - for finding human-readable text in a file
+* sort - for sorting the text in a file
