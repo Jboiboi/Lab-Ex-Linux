@@ -4,3 +4,6 @@ Use the permission properties:
 -group
 Also the size property -size
 Tip: Use 2>/dev/null to clear out the permission denied ones so you can see the password one clearly.
+The number 2 stands for standard error
+The > stands for redirecting the output from the left to the right side
+The /dev/null is basically the black hole or trash can, so all those permission denied messages get deleted.
