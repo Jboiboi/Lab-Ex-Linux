@@ -1,0 +1,2 @@
+Use ./ for a filename that starts with a -
+Because using the normal command like cat without the ./ would interpret it differently
