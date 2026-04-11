@@ -1,0 +1,6 @@
+Problem:
+Using cat on the file returns a bunch of non-readable nonsense.
+Solution:
+The strings command allows you to find the human-readable text in the file.
+The grep command is for finding patterns.
+Combine both with a | 
