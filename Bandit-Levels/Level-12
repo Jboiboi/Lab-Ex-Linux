@@ -1,0 +1,9 @@
+The alphabets shifted 13 letters which is ROT13 encryption.
+Since alphabet is 13 letters that means 13 letters shifted twice would you get you the OG script.
+I tried doing tr data.txt, but it didn't work.
+Use cat data.txt with the piping instead to transfer the output of cat to the input of tr
+tr requires two strings to decode the ROT13
+the two strings are 'A-Za-z' and 'N-ZA-Mn-za-m'
+The reason you DONT do 'N-Mn-m' is because the computer can't tell you wrapped around the alphabet.
+So you have to include two chunks of the alphabet so it can figure it out.
+So N to M would require the first chunk of alphabet to be in front of the N-Z as it indicates you wrapped around into the next set of alphabet.
