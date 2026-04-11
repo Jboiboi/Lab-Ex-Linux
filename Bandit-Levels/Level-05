@@ -1,2 +1,8 @@
 Just use cat ./ on all the files till you find the correct one.
 (Kind of Brute Forced this one)
+
+New Solution:
+Use file command to figure out the type of data stored in the file.
+Use ./ because the files start with a -
+The * allows you to apply the file command to all the files in the directory
+file ./* should help you find the file with the ASCII text which is human-readable.
