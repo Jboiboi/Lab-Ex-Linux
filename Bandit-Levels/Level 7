@@ -1,0 +1,6 @@
+The / means the path is the entire server
+Use the permission properties:
+-user
+-group
+Also the size property -size
+Tip: Use 2>/dev/null to clear out the permission denied ones so you can see the password one clearly.
