@@ -1,0 +1,3 @@
+Problem: A bunch of words with passwords show up
+I used cat alongside | grep
+This finds the specific word without having to search within the long list.
