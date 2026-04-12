@@ -13,3 +13,8 @@
 * find - for finding certain files or directories with properties
 * strings - for finding human-readable text in a file
 * sort - for sorting the text in a file
+* cat -n - displays the file content with line numbers
+* head - views the first 10 lines of the file, use -n#, # is for the number of lines you wish to view. Use -c#, for the number of bytes or characters.
+* tail - views the last 10 lines of the file, use -n#, # is for the number of lines you wish to view. Use -c#, for the number of bytes or characters.
+* diff - compares two files and tells which lines need to change, ex: 1c1, this means line one needs to change to match the other file's line one.
+* diff -r - compares two entire directories
