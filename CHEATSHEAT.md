@@ -18,5 +18,5 @@
 * tail - views the last 10 lines of the file, use -n#, # is for the number of lines you wish to view. Use -c#, for the number of bytes or characters.
 * diff - compares two files and tells which lines need to change, ex: 1c1, this means line one needs to change to match the other file's line one.
 * diff -r - compares two entire directories
-* chown - changes the file or directory's ownership
+* chown - changes the file or directory's ownership. Syntax: sudo [chown] [owner]:[group] [file/directory]
 * chmod - uses numeric and symbolic notation to modify file or directory permissions. 
