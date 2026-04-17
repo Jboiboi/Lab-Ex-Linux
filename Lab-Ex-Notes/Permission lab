@@ -1,1 +1,18 @@
+Permissions
+r - stands for reading permission
+w - write permission
+x - execute permission
 
+Numeric notation for chmod
+Ex: 755
+Owner (7): Read(4) + Write(2) + Execute(1) = 7
+Group (5): Read(4) + Execute(1) = 5
+Others (5): Read(4) + Execute(1) = 5
+
+Symbolic Notation for chmod
+Ex: u+x
+u (Owner)
+g (Group)
+o (Others) 
+a (All)
+A "+" adds permission and a "-" removes permission
