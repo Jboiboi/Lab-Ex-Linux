@@ -1,0 +1,14 @@
+Problem: The file is a hexdump (compressed many times) and is incomprehensible to read.
+I tried doing hexdump-c and outputing it into a file to see if it reverses the hexdump.
+However it just stayed the same.
+Solution:
+Step 1: Use xxd -r on the hexdump file and > into a diff file so that the text of the binary can be converted into binary.
+Step 2: Use file on the diff file to identify the file type
+Step 3: Use the according commands based on the file type to decompress it. Rename the file type aswell.
+Examples:
+gunzip for .gz files
+bunzip2 for .bz2 files
+tar -xf for .tar files
+Step 4: Repeat until file command identifies it as a ASCII file (Which is human-readable)
+*The -xf flag for tar means (extract, filename). The -f flag should always be last or else it'll think another flag is the filename.
+(Another Note; tar doesn't require renaming the file to .tar)
