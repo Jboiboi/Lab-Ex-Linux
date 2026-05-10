@@ -1,4 +1,4 @@
  I started by using cat /ect/bandit_pass/bandit14 to get the password.
 Then I used the command nc to to transfer the password to the next port.
-nc <local machine> <port number>
+nc <localhost> <port number>
 This returned another password which I used to get to level 15.
