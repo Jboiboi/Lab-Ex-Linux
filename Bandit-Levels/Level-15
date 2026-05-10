@@ -1,0 +1,10 @@
+Problem: Need to submit a password using SSL/TLS encryption.
+
+Process:
+1 - I tried doing nc localhost 30001 to submit the password, however I recieved nothing in response.
+2 - I then tried doing openssl localhost 30001, but it returned the error that localhost was an invalid command.
+3 - I attempted doing openssl nc localhost 30001, however it too said nc was an invalid command.
+4 - I used man openssl and found the s_client command which establishes a network session.
+
+Solution:
+I used openssl s_client -connect localhost:30001 and then inputed the password of the current level to get the next password for bandit level 16.
