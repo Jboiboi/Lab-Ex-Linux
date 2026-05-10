@@ -1,2 +1,3 @@
 First, I tried to use cat on the sshkey.private and it showed an RSA encryption.
-Then
+Then, I used scp to copy the file over to my local machine.
+I then used ssh -i with the private key to access level 14.
